@@ -23,7 +23,6 @@ mongoose.connect(MONGO_URI || 'mongodb://localhost:27017/comedy-club')
 
 const initialCandidates = [
     { name: "Anshul Negi", roll: "101", votes: 0 },
-    { name: "Tanishq Jhamar", roll: "102", votes: 0 },
     { name: "Vrishank", roll: "103", votes: 0 },
    
 ];
